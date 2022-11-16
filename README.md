@@ -22,12 +22,31 @@ As seguintes ferramentas foram utilizadas na construção do projeto:
 - .NET Framework Core
 - .ASP-Net
 
+# <b>Features</b>
+
+<h3 align="left"> 
+
+- [x] Cadastrar Estagiário
+- [x] Cadastrar Setor
+- [x] Remover Estagiário
+- [x] Remover Setor
+- [x] Listar Estagiários - Console
+- [x] Listar Setores - Console
+- [x] Listar Estagiários - Web
+
+
+
 # ⚙ <b>Como executar o Projeto</b>
 
 <h2 align="left">
 
-<b> CadastroCLI </b>
+<h3 align="left"> Para executar a parte de cadastrar usuários é necessário abrir a pasta principal no <b> Visual Studio 2022 </b> Chamada <b>EstagiariosWebApp</b>, dentro dela terá os dois projetos.
+</h3>
+<h2> - <b>CadastroCLI</b> </h2>
+<h3 align="left"> Já após a primeira instrução será possível Observar uma pasta chamada <b>CadastroCLI</b>, dentro dela terá um arquivo chamado <b>CadastroSLI.sln</b> dê um duplo clique e após isso clique no botão de Play para rodar o projeto.
+<p> Após isso o console irá abrir e terá as instruções de como cadastrar um usuário ou setor.
 
-<h2>
+<h2> - <b>EstagiariosWebApp</b>
 
-<h3 align="left"> Para executar a parte de cadastrar usuários é necessário abrir a pasta principal no <b> Visual Studio 2022 </b> ![pastaprincipal](imagesmd/pastaprincipal.png)
+<h3 align ="left"> Já após a primeira instrução será possível Observar uma pasta chamada <b>EstagiariosWebApp</b>, dentro dela terá um arquivo chamado <b>EstagiariosWebApp.sln</b> dê um duplo clique e após isso clique no botão de Play para rodar o projeto.
+<p> Após isso a página Web será aberta e no cabeçalho você pode clicar em "<b>Lista Estagiários</b>" para ver os estagiários cadastrados.
