@@ -1,0 +1,39 @@
+﻿@model EstagiarioModel
+
+@{
+    ViewData["Title"] = "Lista Estagiários";
+}
+
+       <div id="conteudo" class="container" layout:fragment="content">
+        <div class="card mt-3 mr-6">
+            <div class="card-header">Estagiários Cadastrados</div>
+            <div class="card-body">
+              <table class="table table-striped tabela">
+                <thead>
+                  <tr>
+                    <th>CPF</th>
+                    <th>Nome</th>
+                    <th>Nascimento</th>
+                    <th>Curso</th>
+                    <th>Instituição</th>
+                    <th>Carga Semanal</th>
+                    <th>Setor Alocado</th>                   
+                  </tr>
+                </thead>
+                <tbody>
+                    @foreach (var estagiario in EstagiarioModel.estagiariosLista){
+                    <tr>
+                    <td>@estagiario.Cpf</td>
+                    <td>@estagiario.Nome</td>
+                    <td>@estagiario.DataNascimento</td>
+                    <td>@estagiario.CursoGraduacao</td>
+                    <td>@estagiario.InstituicaoEnsino</td>
+                    <td>@estagiario.CargaSemanal</td>
+                    <td>@estagiario.SetorAlocado</td>                                      
+                  </tr>
+                    }
+                </tbody>
+              </table>
+            </div>
+          </div>
+         </div>

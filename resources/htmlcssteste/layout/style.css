@@ -1,0 +1,73 @@
+#navlista {
+    color: black;
+}
+
+#cadastrar {
+    border-radius: 0px;
+    border: 0px solid rgb(123, 195, 148);
+    color: rgb(123, 195, 148);
+}
+
+@media screen and (min-width: 990px) {
+    .nav-link {
+        text-align: center;
+        border-radius: 5px;
+        border: 2px solid rgb(123, 195, 148);
+        width: 150px;
+        padding-right: 5px;
+        color: rgb(123, 195, 148);
+    }
+}
+
+
+
+#main-container {
+    margin-top: 1rem;   
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.text-container {
+    width: 50%;
+    left: 0%;
+    margin-top: 2rem;
+}
+
+#estagiarioimg {
+    margin-top: 0rem;
+    display: block;
+    position: absolute;
+    right: 0%;
+}
+
+#codin {
+    text-align: right;
+    float: right;
+    margin-right: 0.5rem;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 16px;
+}
+
+hr {
+    margin: 0rem;
+}
+
+.card {
+    position: relative;
+    display: flex;
+}
+
+
+.main-footer {
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
